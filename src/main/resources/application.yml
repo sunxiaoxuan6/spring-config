@@ -1,0 +1,17 @@
+#服务器的配置
+server:
+  port: 8080
+
+book:
+  name: 三国演义
+  author: 罗贯中
+  price: 30
+  desc: ${book.name}的价格是${book.price}
+  fans:
+    - aa
+    - bb
+    - cc
+  ranks:
+    one: 1
+    two: 2
+    three: 3
